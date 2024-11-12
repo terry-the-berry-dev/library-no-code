@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+             xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="primary">
+                <class>com.lighthouse.library.model.model.AppUser</class>
+                <class>com.lighthouse.library.model.model.Author</class>
+                <class>com.lighthouse.library.model.model.AuthorToBook</class>
+                <class>com.lighthouse.library.model.model.Book</class>
+                <class>com.lighthouse.library.model.model.BookToGenre</class>
+                <class>com.lighthouse.library.model.model.Genre</class>
+                <class>com.lighthouse.library.model.model.Lender</class>
+                <class>com.lighthouse.library.model.model.LenderToBook</class>
+                <class>com.lighthouse.library.model.model.Library</class>
+                <class>com.lighthouse.library.model.model.LibraryToBook</class>
+                <class>com.lighthouse.library.model.model.LibraryToLender</class>
+
+        <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    </persistence-unit>
+</persistence>
